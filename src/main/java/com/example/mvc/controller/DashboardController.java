@@ -11,4 +11,10 @@ public class DashboardController {
 		System.out.println("@@@@@@@@@@@@@@@@@@@@@@");
 		return "test";
 	}
+	
+	@RequestMapping(value="/dashboard")
+	public String dashboard() {
+		System.out.println("11");
+		return "dashboard";
+	}
 }
